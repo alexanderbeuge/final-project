@@ -31,7 +31,7 @@ ACTIVE LINKS: #dbdcde
 /* LAYOUT                   
 /*******************************************/
 html {
-	background: #f7f8f8;
+	background: #f7f5f4;
 }
 
 .site-container {
@@ -45,6 +45,8 @@ html {
 	width: 960px;
 	height: 100px;
 	display: flex;
+	position: fixed;
+	z-index: 2;
 }
 
 
@@ -59,6 +61,9 @@ html {
 
 .sitenav {
 	display: inline-block;
+	float: right;
+	margin-top: 40px;
+	margin-left: 50px;
 }
 
 /*img {
@@ -76,9 +81,9 @@ html {
 	color: #f1f1f2;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 700;
-	height: 18px;
+	font-size: 18px;
 	padding: 0;
-	margin-top: 13px;
+	margin-top: 11px;
 	margin-left: px;
 	line-height: 130%;
 }
@@ -96,9 +101,9 @@ span {
 	color: #cccccc;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 300;
-	height: 18px;
+	font-size: 18px;
 	padding:0;
-	margin-top: 30px;
+	margin-top: 8px;
 }
 
 a {
@@ -130,48 +135,95 @@ a:active {
 	color: #dbdcde;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 700;
-	height: 14px;
+	font-size: 14px;
 }
 
-.main-image {
+.main-image { /* Alex in his studio */
 	border-bottom: solid 6px #fbd234;
+	margin-top: 100px;
 	z-index: 0;
 	position: fixed;
+}
+
+.backgroundimage { /* Grey on grey shapes */
+	position: relative;
+	z-index: -1;
+	margin-top: 328px;
+	display: inline;
 }
 
 #quote {
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
-	height: 26px;
+	font-size: 26px;
 	color: #373837;
 	z-index: 1;
 	position: relative;
-	margin-top: 0;
+	margin-top: 158px;
+	margin-right: 33px;
 	float: right;
+	line-height: 124%;
 }
 
-#shrinks {
+#shrinks { /* Life SHRINKS or expands... */
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
 	text-decoration: none;
 }
 
-#expands {
+#expands { /* Life shrinks or EXPANDS... */
 	font-family: 'Merriweather', serif;
 	font-weight: 900;
 	text-decoration: none;
 }
 
-#author {
+#author { /* ANAIS NIN */
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
-	height: 14px;
+	font-size: 14px;
 	text-decoration: none;
 	float: right;
+    margin-right: 20px;
+    margin-top: 16px;
 }
 
 
-.site-header h1 {
+h1 { /* ABOUT ME */
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	z-index: 1;
+	position: relative;
+	margin-top: 0;
+	margin-left: 150px;
+	display: inline;
+}
+
+p { /* About Me text */
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	max-width: 470px;
+	line-height: 135%;
+	z-index: 1;
+	margin-left: 150px;
+}
+
+.socialmedia-container {
+	display: inline-block;
+	float: right;
+	margin-right: 63px;
+	margin-top: 0;
+}
+
+.social {
+	height: 30px;
+	padding-right: 21px;
+}
+
+.site-header {
 	color:red;
 }
 .site-content {
