@@ -8,7 +8,8 @@ Author: Your Name
 /* COLOURS
 /*******************************************/
 
-/* YELLOW: #fbd234  INACTIVE LINKS: #a1a1a1;
+/* YELLOW: #fbd234  INACTIVE LINKS: #a1a1a1  
+ACTIVE LINKS: #dbdcde
 */
 
 /******************************************
@@ -29,14 +30,22 @@ Author: Your Name
 /******************************************
 /* LAYOUT                   
 /*******************************************/
+html {
+	background: #f7f8f8;
+}
+
+.site-container {
+	max-width: 960px;
+	margin: 0 auto;
+}
 
 .navcontainer {
 	background: #373837;
 	margin: 0 auto;
 	width: 960px;
 	height: 100px;
+	display: flex;
 }
-
 
 
 .logo {
@@ -47,6 +56,14 @@ Author: Your Name
 	
 	/*border: solid 1px red;*/
 }
+
+.sitenav {
+	display: inline-block;
+}
+
+/*img {
+	max-width: 100%;
+}*/
 
 .logo-type {
 	display: block;
@@ -89,22 +106,71 @@ a {
 	color: #a1a1a1;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 700;
-	height: 14px;
-	display: inline;
+	height: 10px;
 }
+
  ul {
  	list-style-type: none;
  	display: inline-flex;
+    margin: 0;
+    padding: 0;
+    height: 5px;
  }
 
-.site-container {
-	max-width: 960px;
-	margin: 0 auto;
+ li a:hover {
+    color: #fbd234;
 }
 
-.site-header {
-
+a:active { 
+    background-color: #fff;
 }
+
+#active-link {
+	text-decoration: underline;
+	color: #dbdcde;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	height: 14px;
+}
+
+.main-image {
+	border-bottom: solid 6px #fbd234;
+	z-index: 0;
+	position: fixed;
+}
+
+#quote {
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	height: 26px;
+	color: #373837;
+	z-index: 1;
+	position: relative;
+	margin-top: 0;
+	float: right;
+}
+
+#shrinks {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+#expands {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+#author {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	height: 14px;
+	text-decoration: none;
+	float: right;
+}
+
+
 .site-header h1 {
 	color:red;
 }
