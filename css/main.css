@@ -66,6 +66,11 @@ html {
 	margin-left: 50px;
 }
 
+#ABOUT-underscore { /* ABOUT */
+    text-decoration: none;
+	border-bottom: solid 2px #fbd234;
+}
+
 /*img {
 	max-width: 100%;
 }*/
@@ -88,14 +93,11 @@ html {
 	line-height: 130%;
 }
 
-.yellow-underscore {
-
+#B-underscore { /* BEUGE */
+	text-decoration: none;
+	border-bottom: solid 4px #fbd234;
 }
 
-span {
-	text-decoration: underline;
-	text-decoration-color: yellow;
-}
 
 #designer {
 	color: #cccccc;
@@ -116,9 +118,8 @@ a {
 
  ul {
  	list-style-type: none;
- 	display: inline-flex;
+ 	display: flex;
     margin: 0;
-    padding: 0;
     height: 5px;
  }
 
@@ -152,7 +153,9 @@ a:active {
 	display: inline;
 }
 
-#quote {
+#quote { /* Life shrinks or expands
+in proportion to one’s
+courage {or CSS}. */
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
 	font-size: 26px;
@@ -200,7 +203,12 @@ h1 { /* ABOUT ME */
 	display: inline;
 }
 
-p { /* About Me text */
+#a-underscore { /* A */
+	text-decoration: none;
+	border-bottom: solid 4px #8d8f91;
+}
+
+p { /* ABOUT ME text */
 	color: #000;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 300;
@@ -211,14 +219,14 @@ p { /* About Me text */
 	margin-left: 150px;
 }
 
+
 .socialmedia-container {
 	display: inline-block;
 	float: right;
 	margin-right: 63px;
-	margin-top: 0;
 }
 
-.social {
+.social { /* Social media icons */
 	height: 30px;
 	padding-right: 21px;
 }
