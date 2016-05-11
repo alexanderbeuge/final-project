@@ -1,7 +1,7 @@
 /* 
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: CV site
+Client: Me
+Author: Alexander Beuge
 */
 
 /******************************************
@@ -30,6 +30,7 @@ ACTIVE LINKS: #dbdcde
 /******************************************
 /* LAYOUT                   
 /*******************************************/
+
 html {
 	background: #f7f5f4;
 }
@@ -39,7 +40,7 @@ html {
 	margin: 0 auto;
 }
 
-.navcontainer {
+.site-header {
 	background: #373837;
 	margin: 0 auto;
 	width: 960px;
@@ -49,21 +50,24 @@ html {
 	z-index: 2;
 }
 
-
 .logo {
 	margin: 13px 0px 14px 33px;
 	border-right: solid 1px #494949;
 	padding-right: 34px;
-	
-	
 	/*border: solid 1px red;*/
 }
 
-.sitenav {
-	display: inline-block;
+.site-nav {
 	float: right;
-	margin-top: 40px;
-	margin-left: 50px;
+	display: inline-block;
+	margin-top: 33px;
+	margin-left: 164px;
+}
+
+li {
+	display: inline-block;
+	padding-right: 34px;
+	font-size: 14px;
 }
 
 #ABOUT-underscore { /* ABOUT */
@@ -71,18 +75,16 @@ html {
 	border-bottom: solid 2px #fbd234;
 }
 
-/*img {
-	max-width: 100%;
-}*/
+#active-link { /* ABOUT */
+	text-decoration: none;
+}
 
 .logo-type {
 	display: block;
 	padding-left: 8px;
-
-
 }
 
-#alexanderbeuge {
+#alexanderbeuge { /* ALEXANDER BEUGE */
 	color: #f1f1f2;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 700;
@@ -93,19 +95,19 @@ html {
 	line-height: 130%;
 }
 
-#B-underscore { /* BEUGE */
+#B-underscore { /* B_EUGE */
 	text-decoration: none;
-	border-bottom: solid 4px #fbd234;
+	border-bottom: solid 3px #fbd234;
 }
 
 
-#designer {
+#designer { /* DESIGNER */
 	color: #cccccc;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 	padding:0;
-	margin-top: 8px;
+	margin-top: 7px;
 }
 
 a {
@@ -127,11 +129,11 @@ a {
     color: #fbd234;
 }
 
-a:active { 
-    background-color: #fff;
+a:active { /* When link is pressed*/
+    color: #fff;
 }
 
-#active-link {
+#active-link { 
 	text-decoration: underline;
 	color: #dbdcde;
 	font-family: 'Titillium Web', sans-serif;
@@ -163,7 +165,7 @@ courage {or CSS}. */
 	z-index: 1;
 	position: relative;
 	margin-top: 158px;
-	margin-right: 33px;
+	margin-right: 38px;
 	float: right;
 	line-height: 124%;
 }
@@ -190,20 +192,28 @@ courage {or CSS}. */
     margin-top: 16px;
 }
 
+#main-text {/* Container for ABOUT ME text */
+	width: 300px;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    z-index: 1;
+    margin-right: 46px;
+}
 
 h1 { /* ABOUT ME */
 	color: #000;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 700;
 	font-size: 24px;
-	z-index: 1;
 	position: relative;
 	margin-top: 0;
-	margin-left: 150px;
-	display: inline;
+	margin-bottom: 0;
+	
+	float: right;
 }
 
-#a-underscore { /* A */
+#a-underscore { /* A_BOUT */
 	text-decoration: none;
 	border-bottom: solid 4px #8d8f91;
 }
@@ -213,10 +223,11 @@ p { /* ABOUT ME text */
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
-	max-width: 470px;
+	position: relative;
 	line-height: 135%;
-	z-index: 1;
-	margin-left: 150px;
+	
+	
+	float: right;
 }
 
 
@@ -238,7 +249,11 @@ p { /* ABOUT ME text */
 
 }
 .site-footer {
-
+    color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	float: right;
 }
 
 /******************************************
