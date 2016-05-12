@@ -9,7 +9,7 @@ Author: Alexander Beuge
 /*******************************************/
 
 /* YELLOW: #fbd234  INACTIVE LINKS: #a1a1a1  
-ACTIVE LINKS: #dbdcde
+ACTIVE LINK: #dbdcde  NAV BAR Grey: #373837;
 */
 
 /******************************************
@@ -249,7 +249,7 @@ p { /* ABOUT ME text */
 
 }
 .site-footer {
-    color: #000;
+    color: #373837;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 300;
 	font-size: 12px;
