@@ -1,0 +1,450 @@
+/* 
+Project Name: CV site
+Client: Me
+Author: Alexander Beuge
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* YELLOW: #fbd234  INACTIVE LINKS: #a1a1a1  
+ACTIVE LINK: #dbdcde  NAV BAR Grey: #373837;
+100% YELLOW: #fff100
+*/
+
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* add type styles here */
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+html {
+	background: #f7f5f4;
+}
+
+.site-container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.site-header {
+	background: #373837;
+	margin: 0 auto;
+	width: 960px;
+	height: 100px;
+	display: flex;
+	position: fixed;
+	z-index: 2;
+}
+
+.logo {
+	margin: 13px 0px 14px 33px;
+	border-right: solid 1px #494949;
+	padding-right: 34px;
+	/*border: solid 1px red;*/
+}
+
+.site-nav {
+	float: right;
+	display: inline-block;
+	margin-top: 33px;
+	margin-left: 164px;
+}
+
+li {
+	display: inline-block;
+	padding-right: 34px;
+	font-size: 14px;
+}
+
+#RESUME-underscore { /* RESUME */
+    text-decoration: none;
+	border-bottom: solid 2px #fbd234;
+}
+
+#active-link { /* ABOUT */
+	text-decoration: none;
+}
+
+.logo-type {
+	display: block;
+	padding-left: 8px;
+}
+
+#alexanderbeuge { /* ALEXANDER BEUGE */
+	color: #f1f1f2;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 0;
+	margin-top: 11px;
+	margin-left: px;
+	line-height: 130%;
+}
+
+#B-underscore { /* B_EUGE */
+	text-decoration: none;
+	border-bottom: solid 3px #fbd234;
+}
+
+
+#designer { /* DESIGNER */
+	color: #cccccc;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	padding:0;
+	margin-top: 7px;
+}
+
+a {
+	text-decoration: none;
+	color: #a1a1a1;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	height: 10px;
+}
+
+ ul {
+ 	list-style-type: none;
+ 	display: flex;
+    margin: 0;
+    height: 5px;
+ }
+
+ li a:hover {
+    color: #fbd234;
+}
+
+a:active { /* When link is pressed*/
+    color: #fff;
+}
+
+#active-link { 
+	color: #dbdcde;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.backgroundimage { /* Grey on grey shapes */
+	position: fixed;
+	z-index: -1;
+	margin-top: 50px;
+	display: inline;
+}
+
+.site-content {
+
+}
+
+h1 { /* BIG NUMBERS 01, 02, 03 etc. */
+    color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 200;
+	font-size: 72px;
+	position: relative;
+	letter-spacing: -4px;
+	margin-top: -23px;
+	margin-bottom: 0;
+	margin-left: -3px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+}
+
+h2 { /* CATEGORIES: EDUCATION, SKILLS etc. */
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 0;
+	float: left;
+	display: flex;
+}
+
+.category-underscore { /* Grey underscore for each CATEGORY */
+	text-decoration: none;
+	border-bottom: solid 4px #8d8f91;
+}
+
+/* EDUCATION SECTION ****************************************/
+
+#EDUCATION-content {
+	margin-top: 134px;
+	margin-left: 36px;
+	display: inline-flex;
+	flex-direction: column;
+	width: 401px;
+}
+
+.category-text {
+	display: inline-flex;
+	
+}
+
+p { /* ABOUT ME text */
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	position: relative;
+	line-height: 135%;
+	margin-top: 0;
+}
+
+.year { /* Year of EDUCATION in bold type */
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+#year { /* Year of EDUCATION in bold type */
+    font-weight: 700;
+    padding-right: 16px;
+}
+
+.yellow-highlight { /* MA Communication Design, BA Graphic Design */
+	background-color: #fff100;
+	border-left: 5px solid #fff100;
+	border-right: 5px solid #fff100;
+	font-weight: 400;
+}
+
+#london-linebreak {
+    padding-left: 55px;
+}
+
+#leipzig-linebreak {
+    padding-left: 56px;
+}
+
+
+/* SKILLS SECTION ****************************************/
+
+.skill-heading {
+	margin-bottom: 87px;
+}
+
+#skills { /* h2 SKILLS */
+	margin-left: 7px;
+}
+
+ #SKILLS-content {
+ 	width: 358px;
+ 	margin-top: 134px;
+ 	margin-right: 74px;
+ 	float: right;
+}
+
+
+
+.skill-table {
+	display: inline-flex;
+}
+
+td {
+	width: 110px;
+    /*justify-content: center;*/
+    /*margin-left: 10px;*/
+    text-align: center;
+    padding-right: 20px;
+}
+
+
+
+/* EMPLOYMENT HISTORY ****************************************/
+
+#EMPLOYMENT-content {
+	margin-top: 60px;
+	margin-left: 36px;
+	display: inline-flex;
+	flex-direction: column;
+	width: 401px;
+}
+
+.yeartoyear { /* year(s) of employment */
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 2.2
+}
+
+.duration { /* number of years worked */
+    color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.jobtitle { /* Position I worked in */
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.company {
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+#employment { /* h2 EMPLOYMENT HISTORY */
+	margin-left: 7px;
+}
+
+.site-header {
+	color:red;
+}
+.site-content {
+
+}
+.site-footer {
+    color: #373837;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	float: right;
+}
+
+/* LANGUAGE SKILLS *************************************/
+
+#LANGUAGE-content {
+	width: 350px;
+	display: inline-flex;
+	flex-direction: column;
+	width: 430px;
+ 	margin-top: -236px;
+ 	margin-right: 1px;
+ 	float: right;
+}
+
+#language-skills { /*h2 LANGUAGE SKILLS*/
+    margin-left: 7px;
+}
+
+.language { /* German, English, Spanish etc. */
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 2.2;
+	text-align: left;
+	width: 20px;
+}
+
+.dots {
+	padding-top: 3px;
+}
+
+.proficiency {
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 2.2;
+	text-align: left;
+	width: 201px;
+	padding-right: -20px
+}
+
+/* INTERESTS ******************************************/
+
+#INTERESTS-content {
+	margin-top: 60px;
+	margin-left: 36px;
+	display: inline-flex;
+	flex-direction: column;
+	width: 401px;
+}
+
+#interests { /*h2 LANGUAGE SKILLS*/
+    margin-left: 9px;
+}
+
+.interests-table {
+	display: flex;
+	margin-left: 36px;
+}
+
+.interest-icon {
+	width: 50px;
+	padding-bottom: 4px;
+}
+
+/* CLIENTS ********************************************/
+
+#CLIENTS-content {
+	width: 350px;
+	display: inline-flex;
+	flex-direction: column;
+	width: 430px;
+ 	margin-top: -352px ;
+ 	margin-right: 1px;
+ 	float: right;
+}
+
+#selected-clients { /*h2 SELECTED CLIENTS*/
+    margin-left: 8px;
+}
+
+#clients-list-left {
+	text-align: left;
+	width: 170px;
+	padding-top: 6px;
+}
+
+#clients-list-right {
+	text-align: left;
+	width: 170px;
+	padding-top: 6px;
+
+}
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
