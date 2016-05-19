@@ -69,7 +69,7 @@ li {
 	font-size: 14px;
 }
 
-#ABOUT-underscore { /* ABOUT */
+#ILLUSTRATION-underscore { /* ILLUSTRATION */
     text-decoration: none;
 	border-bottom: solid 2px #fbd234;
 }
@@ -139,65 +139,23 @@ a:active { /* When link is pressed*/
 	font-size: 14px;
 }
 
-.main-image { /* Alex in his studio */
-	border-bottom: solid 6px #fbd234;
-	margin-top: 100px;
-	z-index: 0;
-	position: fixed;
-}
-
 .backgroundimage { /* Grey on grey shapes */
-	position: relative;
+	position: fixed;
 	z-index: -1;
-	margin-top: 328px;
+	margin-top: 50px;
 	display: inline;
 }
 
-#quote { /* Life shrinks or expands
-in proportion to one’s
-courage {or CSS}. */
-	font-family: 'Merriweather', serif;
-	font-weight: 400;
-	font-size: 26px;
-	color: #373837;
-	z-index: 1;
-	position: relative;
-	margin-top: 158px;
-	margin-right: 38px;
-	float: right;
-	line-height: 124%;
-}
-
-#shrinks { /* Life SHRINKS or expands... */
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
-	text-decoration: none;
-}
-
-#expands { /* Life shrinks or EXPANDS... */
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	text-decoration: none;
-}
-
-#author { /* ANAIS NIN */
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
-	font-size: 14px;
-	text-decoration: none;
-	float: right;
-    margin-right: 20px;
-    margin-top: 16px;
-}
-
 #main-text {/* Container for ABOUT ME text */
-	width: 300px;
+	width: 410px;
     display: flex;
-    float: right;
+    float: left;
     flex-direction: column;
     z-index: 1;
-    margin-right: 46px;
-    margin-top: -607px;
+    margin-top: 150px;
+    margin-left: 48px;
+    margin-bottom: 25px;
+    position: relative;
 }
 
 h2 { /* ABOUT ME */
@@ -208,53 +166,92 @@ h2 { /* ABOUT ME */
 	position: relative;
 	margin-top: 0;
 	margin-bottom: 0;
-	
 	float: right;
+	z-index: 0;
 }
 
-#a-underscore { /* A_BOUT */
+#a-underscore { /* LOVE____ */
 	text-decoration: none;
-	border-bottom: solid 4px #8d8f91;
+	border-bottom: solid 4px #e74328;
 }
 
-p { /* ABOUT ME text */
+p { /* I LOVE ILLUSTRATION text */
 	color: #000;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 	position: relative;
 	line-height: 135%;
-	
-	
 	float: right;
+	z-index: 0;
 }
 
-
-.socialmedia-container {
-	display: inline-block;
+h3 { /* I LOVE ILLUSTRATION text */
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	position: relative;
+	line-height: 135%;
 	float: right;
-	margin-right: 63px;
-	margin-top: 250px;
+	z-index: 0;
 }
 
-.social { /* Social media icons */
-	height: 30px;
-	padding-right: 21px;
+.yellow-highlight { /* www.beugism.com */
+	background-color: #fff100;
+	border-left: 4px solid #fff100;
+	border-right: 5px solid #fff100;
+	font-weight: 400;
 }
 
-.site-header {
-	color:red;
+#beugism-link { /*The default colour of www.beugism.com link remains black*/
+	color: #000;
 }
-.site-content {
 
+#beugism-link a:hover {
+    color: #000;
+    font-weight: 600;
 }
+
+.illo-container {
+	width: 864px;
+	height: 874px;
+	margin-top: 380px;
+	margin-left: 48px;
+	margin right: 48px;
+	margin-bottom: 26px;
+	/*border: solid 1px red;*/
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+
+.thumbnail {
+	width: 204px;
+	/*padding: 0 16px 16px 0;
+	display: inline-flex;*/
+}
+
+img a:active {
+	border-style: inset;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 204px 204px 0;
+	border-color: transparent #fbd334 transparent transparent;
+}
+
+
 .site-footer {
     color: #adadad;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 300;
 	font-size: 12px;
 	float: left;
-	margin-left: 36px;
+	margin-left: 48px;
 	margin-top: -30px;
 }
 
