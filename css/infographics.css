@@ -205,42 +205,132 @@ h3 { /* I LOVE ILLUSTRATION text */
 	font-weight: 400;
 }
 
-#beugism-link { /*The default colour of www.beugism.com link remains black*/
+#behance-link { /*The default colour of www.beugism.com link remains black*/
 	color: #000;
 }
 
-#beugism-link a:hover {
+#behance-link a:hover {
     color: #000;
     font-weight: 600;
 }
 
-.graphic-container {
+#graphic1-container {
 	width: 864px;
-	height: 874px;
+	height: 443px;
 	margin-top: 380px;
 	margin-left: 48px;
 	margin right: 48px;
 	margin-bottom: 26px;
-	border: solid 1px red;
+	/*border: solid 1px red;*/
 	position: relative;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
-.caption {
+#caption1 {
 	color: #000;
 	font-family: 'Titillium Web', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 14px;
 	position: relative;
-	line-height: 135%;
-	float: right;
+	line-height: 125%;
+	float: top;
 	z-index: 0;
-	width: 204px;
+	width: 190px;
+	/*border: solid 1px red;*/
+	height: 118px;
+	border-bottom: solid 1px #8d8f91;
+}
+
+#graphic2-container {
+	width: 864px;
+	height: 275px;
+	margin-top: 40px;
+	margin-left: 48px;
+	margin right: 48px;
+	margin-bottom: 26px;
+	/*border: solid 1px red;*/
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#caption2 {
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	position: relative;
+	line-height: 125%;
+	float: top;
+	z-index: 0;
+	width: 190px;
+	/*border: solid 1px red;*/
+	height: 83px;
+	border-bottom: solid 1px #8d8f91;
+}
+
+#graphic3-container {
+	width: 864px;
+	height: 653px;
+	margin-top: 40px;
+	margin-left: 48px;
+	margin right: 48px;
+	margin-bottom: 26px;
+	/*border: solid 1px red;*/
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#caption3 {
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	position: relative;
+	line-height: 125%;
+	float: top;
+	z-index: 0;
+	width: 190px;
+	/*border: solid 1px red;*/
+	height: 84px;
+	border-bottom: solid 1px #8d8f91;
+}
+
+#graphic4-container {
+	width: 864px;
+	height: 790px;
+	margin-top: 40px;
+	margin-left: 48px;
+	margin right: 48px;
+	margin-bottom: 60px;
+	/*border: solid 1px red;*/
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#caption4 {
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	position: relative;
+	line-height: 125%;
+	float: top;
+	z-index: 0;
+	width: 190px;
+	/*border: solid 1px red;*/
+	height: 84px;
+	border-bottom: solid 1px #8d8f91;
 }
 
 
+.image {
+	width: 643px;
+	padding-top: 3px;
+}
 
 .thumbnail {
 	width: 204px;
@@ -264,8 +354,8 @@ img a:active {
 	font-weight: 300;
 	font-size: 12px;
 	float: left;
-	margin-left: 48px;
-	margin-top: -30px;
+	margin-left: 35px;
+	margin-bottom: 10px
 }
 
 /******************************************

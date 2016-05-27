@@ -109,13 +109,18 @@ li {
 	margin-top: 7px;
 }
 
+
 a {
 	text-decoration: none;
+}
+
+nav a {
 	color: #a1a1a1;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 700;
 	height: 10px;
 }
+
 
  ul {
  	list-style-type: none;
@@ -227,6 +232,19 @@ h3 { /* I LOVE ILLUSTRATION text */
 	justify-content: space-between;
 }
 
+.illo {
+	position: relative;
+}
+
+.triangle {
+	display: none;
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 0;
+	border-top: 117px solid rgba(251,210,52,1);
+	border-left: 204px solid transparent;
+}
 
 
 .thumbnail {
@@ -235,14 +253,15 @@ h3 { /* I LOVE ILLUSTRATION text */
 	display: inline-flex;*/
 }
 
-img a:active {
+/*
+a.illo:hover {
 	border-style: inset;
 	width: 0;
 	height: 0;
 	border-style: solid;
 	border-width: 0 204px 204px 0;
 	border-color: transparent #fbd334 transparent transparent;
-}
+}*/
 
 
 .site-footer {

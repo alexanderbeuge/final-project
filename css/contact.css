@@ -69,7 +69,7 @@ li {
 	font-size: 14px;
 }
 
-#ABOUT-underscore { /* ABOUT */
+#CONTACT-underscore { /* ABOUT */
     text-decoration: none;
 	border-bottom: solid 2px #fbd234;
 }
@@ -146,10 +146,17 @@ a:active { /* When link is pressed*/
 	position: fixed;
 }
 
+.yellow-highlight { /* MA Communication Design, BA Graphic Design */
+	background-color: #fff100;
+	border-left: 5px solid #fff100;
+	border-right: 5px solid #fff100;
+	font-weight: 400;
+}
+
 .backgroundimage { /* Grey on grey shapes */
-	position: relative;
+	position: fixed;
 	z-index: -1;
-	margin-top: 328px;
+	margin-top: 314px;
 	display: inline;
 }
 
@@ -157,84 +164,31 @@ a:active { /* When link is pressed*/
 in proportion to one’s
 courage {or CSS}. */
 	font-family: 'Merriweather', serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 26px;
 	color: #373837;
 	z-index: 1;
-	position: relative;
+	position: fixed;
 	margin-top: 158px;
-	margin-right: 38px;
-	float: right;
-	line-height: 124%;
+	margin-left: 310px;
+	float: left;
+	line-height: 130%;
 }
 
-#shrinks { /* Life SHRINKS or expands... */
+#email-link { /*The default colour of www.beugism.com link remains black*/
+	color: #373837;
 	font-family: 'Merriweather', serif;
-	font-weight: 300;
-	text-decoration: none;
+	font-weight: 400;
+	font-size: 26px;
 }
-
-#expands { /* Life shrinks or EXPANDS... */
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
-	text-decoration: none;
-}
-
-#author { /* ANAIS NIN */
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
-	font-size: 14px;
-	text-decoration: none;
-	float: right;
-    margin-right: 20px;
-    margin-top: 16px;
-}
-
-#main-text {/* Container for ABOUT ME text */
-	width: 300px;
-    display: flex;
-    float: right;
-    flex-direction: column;
-    z-index: 1;
-    margin-right: 46px;
-    margin-top: -650px;
-}
-
-h2 { /* ABOUT ME */
-	color: #000;
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 700;
-	font-size: 24px;
-	position: relative;
-	margin-top: 0;
-	margin-bottom: 0;
-	
-	float: right;
-}
-
-#a-underscore { /* A_BOUT */
-	text-decoration: none;
-	border-bottom: solid 4px #8d8f91;
-}
-
-p { /* ABOUT ME text */
-	color: #000;
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 300;
-	font-size: 16px;
-	position: relative;
-	line-height: 135%;
-	
-	
-	float: right;
-}
-
 
 .socialmedia-container {
 	display: inline-block;
-	float: right;
-	margin-right: 63px;
-	margin-top: 355px;
+	float: left;
+	margin-left: 455px;
+	margin-top: 305px;
+	position: absolute;
+	z-index: 1;
 }
 
 .social { /* Social media icons */
@@ -255,7 +209,9 @@ p { /* ABOUT ME text */
 	font-size: 12px;
 	float: left;
 	margin-left: 36px;
-	margin-top: -30px;
+	margin-top: 300px;
+	position: fixed;
+
 }
 
 /******************************************
